@@ -3,7 +3,7 @@ warning('off');
 
 disp('Ternary Plot Toolbox');
 
-etc_tlbx = get_absolute_file_path('simplex.start');
+etc_tlbx = get_absolute_file_path('ternary_plots.start');
 etc_tlbx = getshortpathname(etc_tlbx);
 
 root_tlbx = strncpy( etc_tlbx, length(etc_tlbx)-length('\etc\') );
